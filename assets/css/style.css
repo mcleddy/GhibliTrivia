@@ -1,10 +1,10 @@
 
-body {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz4ytDXgUyFbwlHn_RS06elIscUGDkG37qldPyPmp5pBBqnF_PsQ");
+body{
+    background-color:#e9ecef
 }
 
 p {
-    font-size: 125%;
+    font-size: 200px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #021a40;
 }
@@ -17,7 +17,6 @@ label {
 .container {
     text-align: center;
     background-color: aliceblue;
-    margin-top: 8%;
     padding: 10px;
     border: 5px solid #021a40;
     border-color: darkblue;
@@ -28,3 +27,42 @@ h1 {
     color: #021a40;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+#questionContainer{
+background:aliceblue;
+padding: 10px;
+width: 700px;
+height: 75px;
+border: 5px solid #021a40;
+border-color: darkblue;
+border-style: double;
+text-align: center;
+margin-left: 27%;
+}
+#answerContainer{
+    background:aliceblue;
+    padding: 10px;
+    width: 500px;
+    border: 5px solid #021a40;
+    border-color: darkblue;
+    border-style: double;
+    text-align: center;
+    margin-left: 34%;
+    }
+    #next{
+        background:aliceblue;
+        padding: 10px;
+        width: fit-content;
+        border: 5px solid #021a40;
+        border-color: darkblue;
+        border-style: double;
+        text-align: center;
+        }
+        #start{
+            background:aliceblue;
+            padding: 10px;
+            width: fit-content;
+            border: 5px solid #021a40;
+            border-color: darkblue;
+            border-style: double;
+            text-align: center;
+            }
